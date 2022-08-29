@@ -1,0 +1,89 @@
+
+.container{
+    background-image:url('./FEAT_ID.jpg');
+    width:100%;
+    height:100%; 
+    box-sizing:border-box;
+    background-size:cover;
+    position: absolute;
+ 
+}
+.list{
+    display: flex;
+    list-style:none;
+    color: rgb(2, 2, 2);
+flex-direction: row;
+}
+li{
+    margin-left: 50px;
+    cursor: pointer;
+    color: #251616;
+}
+.list-item-1{
+color: white;
+font-weight: bold;
+}
+nav{
+    display: flex;
+    align-items: center;
+ background-color: rgb(18, 120, 214);
+ padding-left: 10px;
+ padding-right: 10px;
+ padding-top: 10px;
+ cursor: pointer;
+justify-content: space-between;
+
+
+}
+ .information{
+  
+    align-items: center;
+    
+
+    padding-right: 100px;
+
+}
+.info{
+    display: inline-block;
+    white-space: pre-line;
+    color: #af126e;
+    text-align: center;
+    margin-left: 100px;
+
+
+} 
+button{
+    margin-left: 100px;
+
+    color: yellow;
+    background-color: rgb(18, 120, 214);
+    padding: 10px 50px 10px 50px;
+    border-radius: 10px;
+  border-color: yellow;
+  cursor: pointer;
+
+}
+
+.justice{
+    font-weight: bold;
+    color: #af126e;
+    font-size: 100px;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+@media screen and (max-width:1000px) {
+    nav{
+        flex-direction: column;
+        padding: 50px;
+    }
+    .list{
+        padding: 50px;
+flex-direction: column-reverse;
+    }
+    .list-item{
+        padding: 10px;
+    }
+}
